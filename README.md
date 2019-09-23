@@ -5,7 +5,7 @@ Some notes:
 Please, enter some of 2 datas to enter an application:
 
   <ol> 
-    - First Name: Bill
+    <li>First Name: Bill</li>
       - Last Name: Holden
       - Login: CoolGuy
       - Password: best90
