@@ -1,0 +1,59 @@
+<!DOCTYPE html> 
+    <head>
+        <title>Intetics _ Test task</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div class="modal">
+            <div id="authorisation">
+                <h3>Authorisation</h3>
+                    First Name<input id="firstName" type="text" /> 
+                    Last Name<input id="lastName" type="text" />
+                    Login<input id="login" type="text" />
+                    Password<input id="password" type="password" />
+                    <button id="enter">Enter</button>
+                </div>
+        </div>
+        <nav>
+            <h4>Actual worker: </h4>
+            <div>First Name: 
+                <span id="panel-first-name"></span>
+            </div>
+            <div>Last Name: 
+                <span id="panel-last-name"></span>
+            </div>
+            <button id="exit">Exit</button>
+        </nav>
+        <main>
+            <div id="clients">
+                <h4>Clients</h4>
+                First Name<input id="client_name" type="text" />
+                Surname<input id="client_surname" type="text" />
+                <button id="check_registr_clients">Check database</button>
+                <button
+                    id="create_client">Create a new client</button>
+                    <div id="modal_new_client">
+                        <div class="modal_new_client_content"> 
+                            First Name<input id="new_client_name" type="text" />
+                            Last Bane<input id="new_client_suname" type="text" />
+                            Date of birth<input id="new_birth" type="text" />
+                            Address<input id="new_address" type="text" />
+                            Phone number<input id="new_phone" type="text" />
+                            <input id="new_email" type="text"/>
+                            <button id="save_new_customer">Save a new customer</button>
+                            <div class="close">x</div>
+                        </div>
+                    </div>
+                    <div id="client_info"></div>
+            </div>
+            <div id="cards_block">
+                <h4>Cards</h4>
+                <button id="add">Add card</button>
+                <button id="deleteChosenCards">Delete chosen cards</button>
+                <button id="saveChanges">Save all changes</button>
+                <div id="cards"></div>
+            </div>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:400,500i,700&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+}
+button {
+  padding: 4px 12px;
+  border: 1px solid green;
+  outline: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+button:hover {
+  background-color: green;
+  color: #fff;
+  border: 1px solid black;
+}
+button:focus {
+  box-shadow: 3px 2px 3px green;
+}
+.modal {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: block;
+}
+.modal #authorisation {
+  width: 350px;
+  max-width: 400px;
+  border: 1px dashed green;
+  border-radius: 10px;
+  margin: 7% auto;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  background-color: #fff;
+  display: block;
+}
+.modal #authorisation input {
+  margin: 25px;
+}
+nav {
+  width: 100%;
+  height: 60px;
+  box-shadow: 3px 0px 4px rgba(0, 0, 0, 0.5);
+  padding: 10px 0 0 20px;
+  box-sizing: border-box;
+  background-color: rgba(26, 255, 140, 0.7);
+}
+nav h4 {
+  padding: 0;
+  margin: 0;
+}
+nav div {
+  display: inline-block;
+}
+nav div span {
+  text-decoration: underline;
+  font-style: bold;
+}
+main {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  padding: 20px;
+  box-sizing: border-box;
+}
+main h4 {
+  text-align: center;
+}
+main #clients {
+  width: 25%;
+}
+main #clients #modal_new_client {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: none;
+}
+main #clients #modal_new_client .modal_new_client_content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  position: relative;
+}
+main #clients #modal_new_client .modal_new_client_content .close {
+  color: #aaa;
+  font-size: 22px;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  left: 99%;
+}
+main #clients #modal_new_client .modal_new_client_content .close:hover, main #clients #modal_new_client .modal_new_client_content .close:focus {
+  color: black;
+  cursor: pointer;
+}
+main #clients #modal_new_client .modal_new_client_content input {
+  width: 135px;
+  margin: 5px auto;
+}
+main #clients input {
+  width: 70px;
+}
+main #clients #client_info {
+  box-shadow: 3px 3px 3px #ccc;
+  border: 1px solid #f66;
+  border-radius: 10px;
+  margin: 25px;
+}
+main #clients #client_info ul {
+  padding: 0;
+}
+main #clients #client_info ul li {
+  background-color: rgba(255, 102, 102, 0.7);
+  list-style-type: none;
+  padding: 10px 20px;
+}
+main #cards_block {
+  width: 80%;
+  background-color: #ccebff;
+  padding-left: 20px;
+  box-sizing: box-border;
+}
+main #cards_block #cards {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+main #cards_block #cards .card {
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 14px;
+  margin: 10px 15px;
+}
+main #cards_block #cards .card:hover {
+  box-shadow: 3px 3px 5px #ccc;
+}
+main #cards_block #cards .card ul {
+  outline: 1px dashed #ccc;
+  width: auto;
+  padding: 20px;
+  margin: 10px 15px;
+  box-sizing: border-box;
+}
+main #cards_block #cards .card ul li {
+  display: flex;
+  justify-content: flex-start;
+  padding: 6px 8px;
+  box-sizing: border-box;
+  width: inherit;
+  background-color: rgba(26, 255, 140, 0.5);
+}
+main #cards_block #cards .card ul li div {
+  min-width: 50px;
+  margin-left: 15px;
+  border-bottom: 1px solid red;
+  padding: 3px 8px;
+  box-sizing: border-box;
+  text-align: center;
+}
+main #cards_block #cards .card h3 {
+  text-align: center;
+}
+main #cards_block #cards .card .lists_container {
+  display: flex;
+  justify-content: flex-start;
+}
+main #cards_block #cards .card .lists_container ol {
+  font-size: 12px;
+  color: black;
+  outline: 1px dashed #ccc;
+  padding-left: 5px;
+  box-sizing: border-box;
+}
+main #cards_block #cards .card .lists_container ol li {
+  list-style-type: none;
+  margin: 3px;
+  padding: 3px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: no;
+}
+main #cards_block #cards .card .lists_container ol li div {
+  min-width: 30px;
+  border-bottom: 1px solid green;
+  margin-left: 5px;
+}
