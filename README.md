@@ -3,7 +3,7 @@
 Some notes: 
 
 1. There are 2 workers and everyone has to pass an authorisation before his work shift. 
-Please, enter some of 2 datas to enter an application:
+Please, enter one of 2 datas to enter an application:
 
     <ol>
       <li>First Name: Bill</li>
