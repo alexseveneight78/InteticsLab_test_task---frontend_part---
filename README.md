@@ -4,22 +4,20 @@ Some notes:
 1. There are 2 workers and everyone has to pass an authorisation before his work shift. 
 Please, enter some of 2 datas to enter an application:
 
-  <ol> 
-    <ol">
-      <li style="list-style-type: circle;">First Name: Bill</li>
+  <ul> 
+    <ol>
+      <li>First Name: Bill</li>
       <li>Last Name: Holden</li>
       <li>Login: CoolGuy</li>
       <li>Password: best90</li>
+    </ol> 
+    <ol>
+      <li>First Name: Garry</li>
+      <li>Last Name: Bayern</li>
+      <li>Login: admin</li>
+      <li>Password: qwerty</li>
     </ol>
-      
-      
-      
-  II. 
-    - First Name: Garry
-      - Last Name: Bayern
-      - Login: admin
-      - Password: qwerty
-      </ol>
+   </ul>
       
 I used localStorage to simulate some of actions with database. There are already 3 clients in the localStorage: Jackie Chan, Jason Statham, Alexandr Lukashenko. The most informative is a card of Jason Statham. 
 
