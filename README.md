@@ -5,7 +5,7 @@ Some notes:
 Please, enter some of 2 datas to enter an application:
 
   <ol> 
-    <ol>
+    <ol style="list-style-type: circle;">
       <li>First Name: Bill</li>
       <li>Last Name: Holden</li>
       <li>Login: CoolGuy</li>
