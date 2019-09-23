@@ -5,10 +5,12 @@ Some notes:
 Please, enter some of 2 datas to enter an application:
 
   <ol> 
-    <li>First Name: Bill</li>
-      - Last Name: Holden
-      - Login: CoolGuy
-      - Password: best90
+    <ol>
+      <li>First Name: Bill</li>
+      <li>Last Name: Holden</li>
+      <li>Login: CoolGuy</li>
+      <li>Password: best90</li>
+    </ol>
       
       
       
