@@ -4,7 +4,6 @@ Some notes:
 1. There are 2 workers and everyone has to pass an authorisation before his work shift. 
 Please, enter some of 2 datas to enter an application:
 
-  <ul> 
     <ol>
       <li>First Name: Bill</li>
       <li>Last Name: Holden</li>
@@ -17,7 +16,6 @@ Please, enter some of 2 datas to enter an application:
       <li>Login: admin</li>
       <li>Password: qwerty</li>
     </ol>
-   </ul>
       
 I used localStorage to simulate some of actions with database. There are already 3 clients in the localStorage: Jackie Chan, Jason Statham, Alexandr Lukashenko. The most informative is a card of Jason Statham. 
 
