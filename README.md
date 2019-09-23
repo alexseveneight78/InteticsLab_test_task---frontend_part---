@@ -1,4 +1,4 @@
-# InteticsLab_test_task---frontend_part--- (HTML5+CSS3+JavaScript)
+# InteticsLab_test_task---frontend_part--- (HTML5+CSS3+JavaScript) <br>
 A sandbox for the project is here (Pug+SCSS+JavaScript) - https://codepen.io/alexseveneight/pen/OJLZyoX
 Some notes: 
 1. There are 2 workers and everyone has to pass an authorisation before his work shift. 
