@@ -10,6 +10,7 @@ Please, enter some of 2 datas to enter an application:
       <li>Login: CoolGuy</li>
       <li>Password: best90</li>
     </ol> 
+    ______________________________
     <ol>
       <li>First Name: Garry</li>
       <li>Last Name: Bayern</li>
