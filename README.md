@@ -4,7 +4,7 @@ Some notes:
 1. There are 2 workers and everyone has to pass an authorisation before his work shift. 
 Please, enter some of 2 datas to enter an application:
 
-  I.  
+  *I*.  
     - First Name: Bill
       - Last Name: Holden
       - Login: CoolGuy
