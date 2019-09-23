@@ -13,7 +13,7 @@ Please, enter some of 2 datas to enter an application:
       
       
   II. 
-      - First Name: Garry
+  - First Name: Garry
       - Last Name: Bayern
       - Login: admin
       - Password: qwerty
